@@ -1,0 +1,30 @@
+
+Final Project Proposal
+CS 747 (Fall 2023)
+Team Members: Sreeja Puthumana - G01360679 | Pratish Mashankar - G01354094
+Title: Multilingual Hate Speech Detection Using Modified Implementation of BERT Reference article: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding1.
+  
+Proposal
+We propose to develop an advanced multilingual hate speech detection model after reproducing an enhanced version of BERT (Bidirectional Encoder Representations from Transformers) by incorporating
+additional dense layers and experimenting with various regularization techniques. Our primary objective is to shift the historical focus from predominantly English sentence classification to a more inclusive
+multilingual approach. We propose to conclude the project by also performing a robustness test on the model.
+  
+We aim to achieve state-of-the-art results using the MLMA Hate Speech dataset introduced by Ousidhoum et. al.2 Our evaluation will rely on established metrics, including Accuracy and F1 scores.
+Additionally, we will benchmark our model against the approach outlined in ‘Hate speech detection: a comparison of mono and multilingual transformer model with cross-language evaluation’3 by Ghosh et al.
+one of whose drawbacks presented a lower F1 score for ‘hate speech label’, which we plan to tackle by handling class imbalance.
+  
+Reference(s):
+1. Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pre-training
+of Deep Bidirectional Transformers for Language Understanding. In Proceedings of the 2019
+Conference of the North American Chapter of the Association for Computational Linguistics:
+Human Language Technologies, Volume 1 (Long and Short Papers), pages 4171–4186,
+Minneapolis, Minnesota. Association for Computational Linguistics.
+2. Nedjma Ousidhoum, Zizheng Lin, Hongming Zhang, Yangqiu Song, and Dit-Yan Yeung. 2019.
+Multilingual and Multi-Aspect Hate Speech Analysis. In Proceedings of the 2019 Conference on
+Empirical Methods in Natural Language Processing and the 9th International Joint Conference
+on Natural Language Processing (EMNLP-IJCNLP), pages 4675–4684, Hong Kong, China.
+Association for Computational Linguistics.
+3. Koyel Ghosh and Dr. Apurbalal Senapati. 2022. Hate speech detection: a comparison of mono
+and multilingual transformer model with cross-language evaluation. In Proceedings of the 36th
+Pacific Asia Conference on Language, Information and Computation, pages 853–865, Manila,
+Philippines. Association for Computational Linguistics
